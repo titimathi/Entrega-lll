@@ -26,6 +26,23 @@ header{
 #navbarSupportedContent{
     display: flex;
 }
+
+.botonera {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.botonera li {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -52,7 +69,7 @@ header a{
 a:hover{
     color: #c76771;
 }
-button{
+.bton{
     display: flex;
     margin: auto;
     margin-top: 10px;
@@ -63,7 +80,7 @@ button{
     border-radius: 8px;
     box-shadow: #f00f25(0, 0, 0, 0.35) 0px 5px 15px;
 }
-button:hover{
+.bton:hover{
     
     color: beige;
     background-color: #c76771;
@@ -77,7 +94,7 @@ button:hover{
 
 }
 #cuenta-carrito {
-    position: absolute;
+    /* position: absolute; */
     background-color:#dc3545 ;
     color: beige;
     border-radius: 100%;
@@ -86,6 +103,7 @@ button:hover{
     line-height: 25px;
     aspect-ratio: 1;
     text-align: center;
+    justify-content: space-between;
     /* margin-bottom: 15px; */
 }
 section{
@@ -111,7 +129,7 @@ section .tarjeta-producto{
     margin: auto;
     border: #f00f2567 2px solid;
     border-radius: 8px;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }    
 
 
@@ -121,6 +139,24 @@ section .tarjeta-producto img{
     margin: auto;
     padding-bottom: 10px;
     object-fit: cover;
+}
+
+.tarjeta-carrito{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+section .tarjeta-carrito img {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+.compra-final{
+    display: flex;
+    align-items: center;
+
 }
 footer{
     background-color: #dc3545;
