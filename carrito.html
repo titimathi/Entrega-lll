@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="boton-volver" href="./index.html"><i class="bi bi-arrow-left-circle"></i> Sumar carreras</a>
+                            <a class="boton-volver" href="./index.html"><i class="bi bi-arrow-left-circle"></i>  + Carreras</a>
                         </li>
                         <li class="nav-item">
                             <a class="bton-carrito" href="./carrito.html">
@@ -41,16 +41,17 @@
     </header>
     <main>
         <section id="carrito-container">
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-            <script src="./js/carreras.js"></script>
-            <script src="./js/carrito.js"></script>
-            <script src="./js/index.js"></script>
+            
+            
+            
         </section>
+        <p id="carro-vacio">EL CARRITO ESTÁ VACÍO <a href="index.html">Elegí tus próximas carreras</a></p>
         <section id="compra-final">
-            <p>Cantidad: <span id="unidades">0</span></p>
-            <p>Total:$ <span id="valor-final">0</span></p>
-            <button>Finalizar Compra</button>
-            <button>Vaciar Carrito</button>
+            
+            <p>Cantidad: <span id="unidades"></span></p>
+            <p>Total:$ <span id="valor-final"></span></p>
+            <button id="finalizar-compra">Finalizar Compra</button>
+            <button id="vaciar">Vaciar Carrito</button>
         </section>
         
     </main>
@@ -79,6 +80,9 @@
             © 2023 Event|races.js | Encontrá tus mejores carreras
         </p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="/js/carreras.js"></script>
+    <script type="text/javascript" src="/js/carrito.js"></script>
+ 
 </body>
 </html>

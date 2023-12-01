@@ -41,7 +41,13 @@ header{
     margin-top: 10px;
 }
 
+.img3{
+    display: flex;
+    margin-left: 110px;
+    width: 80%;
+    height: 80%;
 
+}
 
 header nav {
     display: flex;
@@ -70,6 +76,17 @@ a:hover{
     color: #c76771;
 }
 .bton{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    color: beige;
+    padding: 10px 10px;
+    background-color: #dc3545;
+    border-color: #c76771;
+    border-radius: 8px;
+    box-shadow: #f00f25(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button {
     display: flex;
     margin: auto;
     margin-top: 10px;
@@ -116,9 +133,16 @@ section{
 h3 {
     text-align: center;
     color: #c76771;
+    
 }
 p{
     text-align: center;
+    justify-content: space-between;
+}
+.compra-final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section .tarjeta-producto{
@@ -156,6 +180,11 @@ section .tarjeta-carrito img {
 .compra-final{
     display: flex;
     align-items: center;
+
+}
+
+.carrito-vacio{
+    display: none;
 
 }
 footer{

@@ -4,6 +4,7 @@ const carreras = [
         id: 1, 
         nombre: "New Balance Mdq",
         distancia: "21k",
+        tipo: "calle",
         img: "./img/carreras/1.jpg", 
         lugar: "Mar del Plata", 
         precio: 9000 
@@ -11,7 +12,8 @@ const carreras = [
     { 
         id: 2, 
         nombre: "New Balance Trail", 
-        distancia: "10k", 
+        distancia: "10k",
+        tipo: "trail",
         img: "./img/carreras/2.jpg",
         lugar: "Tandil", 
         precio: 9000, 
@@ -19,7 +21,8 @@ const carreras = [
     { 
         id: 3, 
         nombre: "Circuito de las Estaciones", 
-        distancia: "6k",         
+        distancia: "6k",
+        tipo: "calle",         
         img: "./img/carreras/3.jpg",
         lugar: "Vicente López", 
         precio: 6000,
@@ -27,7 +30,8 @@ const carreras = [
     { 
         id: 4, 
         nombre: "Circuito de las Estaciones", 
-        distancia: "10k", 
+        distancia: "10k",
+        tipo: "calle", 
         img: "./img/carreras/4.jpg",
         lugar: "Vicente López", 
         precio: 6000, 
@@ -35,7 +39,8 @@ const carreras = [
     { 
         id: 5, 
         nombre: "10K AXION 2023", 
-        distancia: "10k", 
+        distancia: "10k",
+        tipo: "calle", 
         img: "./img/carreras/5.jpg",
         lugar: "Campana", 
         precio: 5000, 
@@ -44,6 +49,7 @@ const carreras = [
         id: 6, 
         nombre: "Carrera Montagne 2023", 
         distancia: "15k",
+        tipo: "trail",
         img: "./img/carreras/6.jpg",
         lugar: "Palermo", 
         precio: 4500, 
@@ -67,7 +73,8 @@ const carreras = [
     { 
         id: 9, 
         nombre: "Epic Patagonia 2024", 
-        distancia: "50k", 
+        distancia: "50k",
+        tipo: "trail", 
         img: "./img/carreras/9.jpg",
         lugar: "Villa La Angostura", 
         precio: 77550, 
@@ -75,7 +82,8 @@ const carreras = [
     { 
         id: 10, 
         nombre: "Epic Patagonia 2024", 
-        distancia: "21k", 
+        distancia: "21k",
+        tipo: "trail", 
         img: "./img/carreras/10.jpg",
         lugar: "Villa La Angostura", 
         precio: 44550,
@@ -83,7 +91,8 @@ const carreras = [
     { 
         id: 11, 
         nombre: "Adventure Race Tandil", 
-        distancia: "29k", 
+        distancia: "29k",
+        tipo: "trail", 
         img: "./img/carreras/11.jpg",
         lugar: "Tandil", 
         precio: 24200, 
@@ -91,7 +100,8 @@ const carreras = [
     { 
         id: 12, 
         nombre: "Raid Columbia 2024", 
-        distancia: "60k", 
+        distancia: "60k",
+        tipo: "trail", 
         img: "./img/carreras/12.jpg",
         lugar: "Salta", 
         precio: 100100,
